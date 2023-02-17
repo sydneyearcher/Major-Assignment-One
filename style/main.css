@@ -1,0 +1,50 @@
+/*Web Page Background Color*/
+body{
+    background-color: #696969;
+}
+/*Webpage Header Color*/
+.title {
+    color: rgb(92, 12, 12);
+}
+.secondheader{
+    color: rgb(92, 12, 12);
+}
+/*Psuedo-Code for hovering over hyperlinks*/
+a.highlightlink:hover{
+    color: rgb(92, 12, 12);
+    font-size:x-large;
+}
+/*Border Setup*/
+p.double{border-style:double;}
+/*Padding around headers*/
+.headingpadding {
+    padding: 10px;
+    background-color: #000;
+    border: 5px solid #000;
+}
+/*Alligning Pictures to the center of webpage*/
+*{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content:"";
+    clear:both;
+    display: table;
+}
+
+@media screen and (nax-width:500px){
+    .column{
+        width: 100%;
+    }
+}
+/*font for the Dark Wave Movement & Dark Wave Facts body paragraphs*/
+.font{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
